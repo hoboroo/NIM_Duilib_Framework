@@ -1,0 +1,19 @@
+# This is the top-most EditorConfig file.
+root = true
+
+# For all files.
+[*]
+charset = utf-8
+end_of_line = lf
+indent_style = space
+insert_final_newline = true
+trim_trailing_whitespace = true
+
+# C/C++ files
+[*.{c,h,cpp,hpp}]
+charset = utf-8-bom
+indent_size = 4
+
+# CMake files
+[{CMakeLists.txt,*.cmake}]
+indent_size = 2
